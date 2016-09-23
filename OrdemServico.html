@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <title>MinhaPage</title> 
+        <link rel="stylesheet" href="jquery.mobile.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="jquery-1.9.1.min.js"></script>
+        <script src="jquery.mobile.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header">
+                <h1>Ordem de Serviço</h1>
+            </div>
+
+            <div data-role="content">
+				
+               <label for="slider-flip-m">Mini flip switch:</label>
+                  <select name="slider-flip-m" id="slider-flip-m" data-role="slider" data-mini="true">
+                      <option value="off">No</option>
+                      <option value="on" selected="">Yes</option>
+                  </select>
+                  
+                  <div class="ui-field-contain">
+                       <label for="textinput-fc">Marca do veiculo:</label>
+                       <input type="text" name="textinput-fc" id="textinput-fc" placeholder="Text input" value="">
+                  </div>
+                  <div class="ui-field-contain">
+                       <label for="textinput-fc">Placa:</label>
+                       <input type="text" name="textinput-fc" id="textinput-fc" placeholder="Text input" value="">
+                  </div>
+                  <div class="ui-field-contain">
+                       <label for="select-native-fc">Tipo de veiculo: </label>
+                       <select name="select-native-fc" id="select-native-fc">
+                       <option value="small">Caminhão</option>
+                       <option value="medium">Automóvel</option>
+                  </select>
+</div>
+
+            <div data-role="footer">
+                <small class="ui-bar">&#169; 2016 Wagner Soares &#8212; 2<sup>a.</sup> edição 1</small>
+            </div>
+        </div> 
+    </body>
+</html>
